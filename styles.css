@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic);
+
+
+
+html,
+body,
+div,
+main,
+section,
+header,
+footer {
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.container,
+section>div {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+header,
+#hero,
+footer {
+    background-color: #1f2937;
+}
+
+nav a,
+#hero p,
+footer p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+header .container, #hero>div, #subscribe>div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:not(:last-child) {
+    margin-right: 12px;
+}
+
+header h1 a {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#hero > div div {
+  flex: 0 1 420px;
+}
+
+#hero-text-box {
+    text-align: left;
+}
+
+#hero-text-box h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 2px 0px;
+}
+
+#hero-text-box p {
+    margin-top: 0;
+}
+
+#logo-text {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#quotes {
+    background-color: #e5e7eb;
+}
+
+.products h2,
+.quote p {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.products h2 {
+    font-weight: bolder;
+}
+
+.products p {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #868c97;
+}
+
+.products ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.products li {
+    max-width: 140px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+
+.products img {
+    height: 140px;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+}
+
+.quote {
+    box-sizing: border-box;
+    padding: 1rem 6rem;
+    text-align: left;
+}
+
+.quote p {
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.quote span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px 33px;
+    padding-top: 0;
+    text-align: right;
+}
+
+#subscribe {
+    color: #e5e7eb;
+}
+
+#subscribe h3 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#subscribe p {
+    font-size: smaller;
+    margin-top: 0;
+    text-align: left;
+}
+
+#subscribe>div,
+.signup-button {
+    background-color: #3882f6;
+}
+
+#subscribe>div {
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 1rem 6rem;
+}
+
+.signup-button {
+    border: none;
+    border-radius: 6px;
+    color: #e5e7eb;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 6px 24px;
+}
+
+#subscribe .signup-button {
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+section:not(#recipes) {
+    padding: 3rem 12px;
+}
+
+header,
+footer {
+    padding: 4px 12px;
+}
